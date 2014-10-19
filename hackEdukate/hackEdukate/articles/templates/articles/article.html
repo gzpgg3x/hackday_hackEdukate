@@ -10,8 +10,8 @@
 
 {% block main %}
   <ol class="breadcrumb">
-    <li><a href="{% url 'articles' %}">{% trans 'Articles' %}</a></li>
-    <li class="active">{% trans 'Article' %}</li>
+    <li><a href="{% url 'articles' %}">{% trans 'hackBlogs' %}</a></li>
+    <li class="active">{% trans 'hackBlog' %}</li>
   </ol>
   {% include 'articles/partial_article.html' with article=article %}
   {% include 'articles/partial_article_comments.html' with article=article %}
