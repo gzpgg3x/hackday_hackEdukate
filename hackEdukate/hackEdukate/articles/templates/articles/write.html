@@ -7,8 +7,8 @@
 
 {% block main %}
   <ol class="breadcrumb">
-    <li><a href="{% url 'articles' %}">{% trans 'Articles' %}</a></li>
-    <li class="active">{% trans 'Write Article' %}</li>
+    <li><a href="{% url 'articles' %}">{% trans 'hackBlog' %}</a></li>
+    <li class="active">{% trans 'Write hackBlog' %}</li>
   </ol>
   <form action="{% url 'write' %}" method="post" role="form">
     {% csrf_token %}
